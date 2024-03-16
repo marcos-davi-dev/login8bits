@@ -1,0 +1,58 @@
+@font-face{
+	font-family: font-8bits;
+	src: url('8-bits.ttf');
+}
+
+#box-principal{
+	width: 600px;
+	height: 600px;
+	border-radius: 1%;
+	position: relative;
+	background-color: #000000;
+}
+
+#box-secundaria{
+	border-radius: 2%;
+	width:560px;
+	height:500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+	background-color: #ffffff;
+	}
+
+.arrow {
+	width: 15px;
+}
+
+.arrow:hover{
+
+}
+body{
+	font-family: font-8bits;
+	font-size:;
+}
+form{
+	position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+
+}
+input{
+	font-family: monospace;
+	font-size:;
+}
+
+.form-control{
+	width: 300px;
+}
+#btnStart{
+	margin-top: 10px;
+	margin-left: 100px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
